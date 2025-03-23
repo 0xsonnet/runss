@@ -72,7 +72,7 @@ const menu = [
   },
   {
     title: 'scenario',
-    href: '/guest-book'
+    href: '/scenario'
   },
   {
     title: 'just know',
