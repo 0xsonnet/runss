@@ -38,7 +38,7 @@
     "@faker-js/faker": "^9.3.0",
     "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^22.10.6",
-    "@types/react": "^18.3.19",
+    "@types/react": "^19.0.12",
     "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
     "eslint": "^9.18.0",
     "eslint-config-next": "15.1.3",
