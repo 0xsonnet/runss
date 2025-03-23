@@ -31,7 +31,7 @@ export default async function GuestBook() {
           id='desc'
           type='text'
           className='flex-1 bg-transparent placeholder-opacity-50 caret-[#5de4c7] placeholder:text-[#898989]/90 focus:border-transparent focus:outline-none focus:ring-0'
-          placeholder={session ? 'Leave a message' : 'Sign in to leave a message'}
+          placeholder={session ? 'Leave a message' : ''}
           autoFocus
           required
           minLength={3}
