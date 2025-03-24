@@ -10,7 +10,7 @@ export const Navbar = () => {
       <div className='items-center justify-between gap-2 px-2 lg:px-0 hidden lg:flex'>
         <div className='flex items-center gap-2'>
           <div className='h-4 w-1.5 bg-[#969696]' />
-          <a className='flex items-center' href='https://github.com/wiscaksono/wiscaksono-site' target='_blank' rel='norreferrer'>
+          <a className='flex items-center' href='#' target='_blank' rel='norreferrer'>
             <svg
               className='mr-1 h-3 w-3'
               xmlns='http://www.w3.org/2000/svg'
@@ -32,9 +32,10 @@ export const Navbar = () => {
           </a>
         </div>
         <div className='flex items-center gap-x-2 not-sr-only'>
-          <p>-- VIEW --</p>
+          <p>-- W --</p>
         </div>
       </div>
+
       <div className='flex items-center justify-between gap-20 overflow-x-auto px-2 py-3 leading-none lg:px-0 lg:py-0'>
         <ul className='flex items-center'>
           <li className='mr-1 bg-[#969696] px-2 py-0.5 leading-none text-black not-sr-only'>Run</li>
@@ -49,8 +50,15 @@ export const Navbar = () => {
             )
           })}
         </ul>
+
+        {/* 🔔 Tombol alert "Coming soon" */}
         <div className='lg:flex hidden items-center gap-2 not-sr-only'>
-          <p className='shrink-0 bg-[#969696] px-2 py-0.5 leading-none text-black'>Connect Wallet</p>
+          <button
+            onClick={() => alert('Coming soon')}
+            className='shrink-0 bg-[#969696] px-2 py-0.5 leading-none text-black rounded hover:opacity-80 transition-all'
+          >
+            Learning & Create Agent
+          </button>
         </div>
       </div>
     </nav>
@@ -67,15 +75,11 @@ const menu = [
     href: '/abouts/personal'
   },
   {
-    title: 'dreams',
-    href: '/projects'
-  },
-  {
     title: 'scenario',
     href: '/scenario'
   },
   {
     title: 'just know',
-    href: '/articles'
+    href: '/know'
   }
 ]
