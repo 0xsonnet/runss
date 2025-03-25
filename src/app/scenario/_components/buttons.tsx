@@ -48,7 +48,7 @@ export const Submit = (props: Props) => {
       disabled={pending || props.disabled}
       {...props}
     >
-      {pending ? 'Loading...' : 'Submit'}
+      {pending ? 'L' : 'S'}
     </button>
   )
 }
