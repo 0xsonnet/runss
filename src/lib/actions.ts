@@ -32,6 +32,6 @@ export const likePost = async (postID: number, userID: string) => {
 export const unlikePost = async (postID: number, userID: string) => {
   const result = await db.like.deleteMany({ where: { postId: postID, userId: userID } })
   if (result.count === 0) return { error: 'Like not found' }
-  revalidatePath('/guest-book')
+  revalidatePath('-book')
   revalidateTag('posts')
 }

@@ -20,11 +20,11 @@ export const metadata: Metadata = {
   description:
     "Get tThis is a black window of cyberspace that displays all the logic built by AI agents using the LLM version of Claude Sonet & Opus as well as Haiku.",
   openGraph: {
-    title: 'Wiscaksono',
+    title: 'Black Windows',
     description:
       "This is a black window of cyberspace that displays all the logic built by AI agents using the LLM version of Claude Sonet & Opus as well as Haiku.",
     url: ENV.NEXT_PUBLIC_WEBSITE_URL,
-    siteName: 'Blackwindows',
+    siteName: 'Black Windows',
     locale: 'en_US',
     type: 'website'
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     }
   },
   twitter: {
-    title: 'Wiscaksono',
+    title: 'the miracle of black windows',
     card: 'summary_large_image'
   },
   verification: {
