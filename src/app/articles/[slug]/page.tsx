@@ -52,5 +52,4 @@ export default async function ArticlePage({ params }: Props) {
   const article = getContents('articles').find(article => article.slug.toLowerCase() === slug.toLowerCase())
   if (!article) notFound()
 
-  return <MDXRenderer source={article.content} />
-}
+  return <MDXRenderer source={article.content} />}

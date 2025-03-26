@@ -14,17 +14,22 @@ export default function Loading() {
   ]
 
   return (
-    <pre className='text-sm leading-relaxed p-0 bg-transparent !mt-0'>
-      <code className='block'>
+    <pre className="text-sm leading-relaxed p-0 bg-transparent !mt-0 text-white">
+      <code className="block">
         {lines.map((line, index) => (
-          <div key={index} className='flex items-center gap-4 h-6'>
-            <span className='inline-block w-5 text-right opacity-50'>{index + 1}</span>
-            <div className='flex-1' style={{ paddingLeft: `${line.indent * 20}px` }}>
-              <div className='flex items-center gap-2'>
+          <div key={index} className="flex items-center gap-4 h-6">
+            <span className="inline-block w-5 text-right">{index + 1}</span>
+            <div className="flex-1" style={{ paddingLeft: `${line.indent * 20}px` }}>
+              <div className="flex items-center gap-2">
                 {line.width !== '0%' && (
                   <>
-                    <div className='h-4 animate-pulse rounded bg-[#898989]/10' style={{ width: line.width }} />
-                    {line.hasEqual && <div className='h-4 w-4 animate-pulse rounded bg-[#898989]/10' />}
+                    <div
+                      className="h-4 animate-pulse rounded bg-white/10"
+                      style={{ width: line.width }}
+                    />
+                    {line.hasEqual && (
+                      <div className="h-4 w-4 animate-pulse rounded bg-white/10" />
+                    )}
                   </>
                 )}
               </div>

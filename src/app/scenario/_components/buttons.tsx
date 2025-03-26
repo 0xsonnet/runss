@@ -13,7 +13,7 @@ export const SignIn = (props: Props) => {
     <button
       type='button'
       onClick={() => signIn('github')}
-      className='flex lg:w-[160px] w-full items-center justify-center gap-2 px-2 py-0.5 text-[#131313]'
+      className='flex lg:w-[160px] w-full items-center justify-center gap-2 bg-[#898989] px-2 py-0.5 text-[#131313]'
       {...props}
     >
       <GitHub />
@@ -44,11 +44,11 @@ export const Submit = (props: Props) => {
   return (
     <button
       type='submit'
-      className={`flex w-full items-center justify-center gap-2 gap-x-2 px-2 py-0.5 text-[#131313] lg:w-[160px] ${pending ? 'cursor-not-allowed' : ''} ${props.className ? props.className : ''}`}
+      className={`flex w-full items-center justify-center gap-2 gap-x-2 bg-[#898989] px-2 py-0.5 text-[#131313] lg:w-[160px] ${pending ? 'cursor-not-allowed' : ''} ${props.className ? props.className : ''}`}
       disabled={pending || props.disabled}
       {...props}
     >
-      {pending ? 'L' : 'S'}
+      {pending ? 'Loading...' : 'Submit'}
     </button>
   )
 }

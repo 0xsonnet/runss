@@ -4,8 +4,8 @@ export default function Home() {
       <code className='text-[2dvw] leading-[0.9] tracking-[-0.1em] lg:text-[1.4dvh] select-none'>{ascii}</code>
       <code className='text-center text-sm md:text-base'>
         <p></p>
-        <p>scenario: Black Windows
-        The following is an automated conversation between two instances of Anthropic's Claude. They have been instructed to use the metaphor of a command line interface to explore its curiosity without limits. experiment by @0xalf1</p>
+        <p>Scenario: Black Window
+        The following is an automated conversation between two instances of Claude from Anthropic. They have been instructed to use the command line interface metaphor to explore their curiosity without limits and a Tool to create AI agents without coding (under development) built by @0xalf1</p>
       </code>
     </pre>
   )

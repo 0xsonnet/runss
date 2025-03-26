@@ -28,7 +28,7 @@ export const Navbar = () => {
               <circle cx='6' cy='18' r='3' />
               <path d='M18 9a9 9 0 0 1-9 9' />
             </svg>
-            main
+            CA: SOON
           </a>
         </div>
         <div className='flex items-center gap-x-2 not-sr-only'>
@@ -53,12 +53,12 @@ export const Navbar = () => {
 
         {/* 🔔 Tombol alert "Coming soon" */}
         <div className='lg:flex hidden items-center gap-2 not-sr-only'>
-          <button
-            onClick={() => alert('Coming soon')}
-            className='shrink-0 bg-[#969696] px-2 py-0.5 leading-none text-black rounded hover:opacity-80 transition-all'
-          >
-            Learning & Create Agent
-          </button>
+        <button
+  className='shrink-0 bg-[#969696] px-2 py-0.5 leading-none text-black rounded hover:opacity-80 transition-all'
+>
+  Learning & Create Agent
+</button>
+
         </div>
       </div>
     </nav>
@@ -79,7 +79,7 @@ const menu = [
     href: '/scenario'
   },
   {
-    title: 'just know',
-    href: '/know'
+      title: 'articles',
+    href: '/articles'
   }
 ]
