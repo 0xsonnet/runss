@@ -56,7 +56,7 @@ export const Navbar = () => {
         <button
   className='shrink-0 bg-[#969696] px-2 py-0.5 leading-none text-black rounded hover:opacity-80 transition-all'
 >
-  Learning & Create Agent
+  [SOON] Learning & Create Agent
 </button>
 
         </div>
